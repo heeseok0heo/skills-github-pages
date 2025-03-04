@@ -8,16 +8,26 @@ tags: ["3d", "mesh", "volume"]
 weight: 10
 ---
 
-SKILLS 
+Skills
 
 * Segment 2D images
-* Build 3D fonts
-* Design 3D manipulator for the target application
-* Repair 3D meshes enable 3D printing
-* Compose boolean operations of 3D meshes in order to build a complex 3D object.
-* Use the algorithms in ITK (Insignt Toolkit), VTK (Visualization Toolkit) software packages and port them
-* Design hybrid volume-geometry rendering
-* Reduce the dimensionality of large data sets using PCA (Principal Component Analysis)
-* Register two-point clouds using ICP (Interative closest point) algorithm
-* Interpolate 3D motion with polynomial equations over quaternions
-* Interpolate spline curves and solve the related problem using their Frenet frame.
+
+* Create 3D fonts
+
+* Design 3D manipulators for target applications
+
+* Repair 3D meshes to enable 3D printing
+
+* Perform boolean operations on 3D meshes to construct complex 3D objects
+
+* Utilize and port algorithms from ITK (Insight Toolkit) and VTK (Visualization Toolkit)
+
+* Design hybrid volume-geometry rendering systems
+
+* Apply PCA (Principal Component Analysis) to reduce the dimensionality of large datasets
+
+* Register two-point clouds using the ICP (Iterative Closest Point) algorithm
+
+* Interpolate 3D motion using polynomial equations over quaternions
+
+* Interpolate spline curves and solve related problems using their Frenet frame

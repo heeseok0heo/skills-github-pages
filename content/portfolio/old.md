@@ -8,7 +8,7 @@ layout: 'portfolio'
 
 WORK EXPERIENCE 
 
-2016.10 ~ Now, OSSTEM IMPLANT CO., LTD.
+2016.10 ~ 2022.12, OSSTEM IMPLANT CO., LTD.
  Dental Implant Software Development Team Leader
  - Develop the software supporting digital guided implant planning surgery (a.k.a OneGuide SW)
  - Design cooperation of PMS (patient management system) and OneGuide SW
