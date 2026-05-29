@@ -1,29 +1,24 @@
-# Heeseok Heo Portfolio
+# Heeseok Heo GitHub Pages
 
-Hugo 기반 GitHub Pages 포트폴리오 사이트입니다.
+Hugo 기반 Software Architect 포트폴리오 사이트입니다.
 
-## 핵심 구조
+## Information Architecture
 
-- `content/`: 수정 가능한 Markdown 원본
-- `static/`: CNAME, 이미지, 데모 앱 같은 정적 파일
-- `themes/triple-hyde/`: Hugo 테마
-- `.github/workflows/pages.yml`: GitHub Pages 자동 배포
+- `content/about.md`: 소개 및 학력 배경
+- `content/experience.md`: 회사별 경력
+- `content/expertise.md`: 핵심 전문 영역
+- `content/projects/`: 대표 프로젝트 목록 및 상세 페이지
+- `content/technologies/`: 기술 노트 및 세부 항목
+- `content/publications.md`: 학위 논문 및 연구 배경
 
-## 로컬 실행
+## Deployment
 
-```bash
-hugo server -D
-```
+GitHub Pages 설정에서 **Source = GitHub Actions**를 사용합니다.
 
-## 배포
+- Custom domain: `skills.xsim2026.shop`
+- CNAME: `static/CNAME`
+- Workflow: `.github/workflows/pages.yml`
 
-GitHub 저장소의 Pages 설정에서 **Build and deployment > Source = GitHub Actions**를 선택합니다.
-`main` 브랜치에 push하면 GitHub Actions가 Hugo를 빌드하여 Pages에 배포합니다.
+## Maintenance
 
-## 커스텀 도메인
-
-`static/CNAME`에 다음 도메인을 둡니다.
-
-```text
-skills.xsim2026.shop
-```
+HTML 산출물은 직접 수정하지 말고 Markdown 원본을 수정한 뒤 `main` 브랜치에 push합니다.

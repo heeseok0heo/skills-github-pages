@@ -33,22 +33,32 @@ summaryLength = 35
     email = "heeseok.heo@gmail.com"
 
 [[menu.main]]
-    name = "Expertise"
+    name = "About"
+    identifier = "about"
     weight = 100
+    url = "/about/"
+[[menu.main]]
+    name = "Career"
+    identifier = "experience"
+    weight = 200
+    url = "/experience/"
+[[menu.main]]
+    name = "Expertise"
     identifier = "expertise"
+    weight = 300
     url = "/expertise/"
 [[menu.main]]
     name = "Projects"
-    identifier = "portfolio"
-    weight = 200
-    url = "/portfolio/"
+    identifier = "projects"
+    weight = 400
+    url = "/projects/"
 [[menu.main]]
-    name = "Experience"
-    identifier = "experience"
-    weight = 250
-    url = "/experience/"
+    name = "Technologies"
+    identifier = "technologies"
+    weight = 500
+    url = "/technologies/"
 [[menu.main]]
-    name = "About"
-    identifier = "about"
-    weight = 300
-    url = "/about/"
+    name = "Publications"
+    identifier = "publications"
+    weight = 600
+    url = "/publications/"

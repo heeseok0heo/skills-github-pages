@@ -1,0 +1,33 @@
+{{ define "header" }}
+  {{ partial "header.html" . }}
+{{ end }}
+
+{{ define "content" }}
+  <article>
+    <header>
+      <h1>{{ .Title }}</h1>
+    </header>
+    <div class="post">
+      {{ .Content }}
+    </div>
+    {{ $pages := .Pages.ByWeight }}
+    {{ if not $pages }}{{ $pages = .Pages.ByDate.Reverse }}{{ end }}
+    {{ if $pages }}
+      <h2>Pages</h2>
+      <ul class="posts">
+        {{ range $pages }}
+          {{ if not .Draft }}
+          <li>
+            <span class="list__title--small"><a href="{{ .RelPermalink }}">{{ .Title }}</a></span>
+            {{ with .Description }}<p>{{ . }}</p>{{ end }}
+          </li>
+          {{ end }}
+        {{ end }}
+      </ul>
+    {{ end }}
+  </article>
+{{ end }}
+
+{{ define "footer" }}
+  {{ partial "page-list/footer.html" . }}
+{{ end }}
