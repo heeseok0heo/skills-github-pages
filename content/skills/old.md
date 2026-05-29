@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Old"
 date: 2025-03-04T16:18:40+09:00
 author: "Heeseok"

@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Old"
 date: 2025-03-04T15:53:49+09:00
 screenshot: old.png

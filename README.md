@@ -1,51 +1,29 @@
-<header>
+# Heeseok Heo Portfolio
 
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
+Hugo 기반 GitHub Pages 포트폴리오 사이트입니다.
 
-# GitHub Pages
+## 핵심 구조
 
-_Create a site or blog from your GitHub repositories with GitHub Pages._
+- `content/`: 수정 가능한 Markdown 원본
+- `static/`: CNAME, 이미지, 데모 앱 같은 정적 파일
+- `themes/triple-hyde/`: Hugo 테마
+- `.github/workflows/pages.yml`: GitHub Pages 자동 배포
 
-</header>
+## 로컬 실행
 
-<!--
-  <<< Author notes: Step 3 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
-  Historic note: previous version checked the homepage content was not empty.
--->
+```bash
+hugo server -D
+```
 
-## Step 3: Customize your homepage
+## 배포
 
-_Nice work setting the theme! :sparkles:_
+GitHub 저장소의 Pages 설정에서 **Build and deployment > Source = GitHub Actions**를 선택합니다.
+`main` 브랜치에 push하면 GitHub Actions가 Hugo를 빌드하여 Pages에 배포합니다.
 
-You can customize your homepage by adding content to either an `index.md` file or the `README.md` file. GitHub Pages first looks for an `index.md` file. Your repository has an `index.md` file so we can update it to include your personalized content.
+## 커스텀 도메인
 
-### :keyboard: Activity: Create your homepage
+`static/CNAME`에 다음 도메인을 둡니다.
 
-1. Browse to the `index.md` file in the `my-pages` branch.
-1. In the upper right corner, open the file editor.
-1. Type the content you want on your homepage. You can use Markdown formatting on this page.
-1. (optional) You can also modify `title:` or just ignore it for now. We'll discuss it in the next step.
-1. Commit your changes to the `my-pages` branch.
-1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
-
-<footer>
-
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
-
----
-
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
-
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
-</footer>
+```text
+skills.xsim2026.shop
+```

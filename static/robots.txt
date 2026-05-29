@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://skills.xsim2026.shop/sitemap.xml
