@@ -1,26 +1,29 @@
 ---
-title: "Software Architect for Medical Imaging, CAD/CAM, Digital Twin, and Physical AI"
+title: "About"
 date: 2026-05-29T00:00:00+09:00
 ---
 
-Computer Graphics 기반의 3D Geometry 전문성을 바탕으로 의료영상, 치과 CAD/CAM, 산업 AI, 디지털 트윈, Physical AI 학습 환경을 설계하고 구현해 온 Software Architect입니다.
+저는 Computer Graphics 기반의 3차원 기하학 연구를 시작으로 의료영상, CAD/CAM, 대규모 플랫폼, 산업 AI, 디지털 트윈, Physical AI 분야까지 경험을 확장해 온 Software Architect입니다.
 
-## Site Guide
+초기에는 시스템 소프트웨어와 인터넷 서비스 플랫폼을 경험했고, 이후 의료영상 기반 CAD/CAM 플랫폼과 제조 산업 AI 시스템을 설계·개발했습니다. 최근에는 강화학습, Synthetic Data, Isaac Sim / Isaac Lab 기반의 Physical AI 학습 환경 구축에 집중하고 있습니다.
 
-- [About](/about/): 기술 정체성과 학력 배경
-- [Career](/experience/): 회사별 경력과 역할
-- [Expertise](/expertise/): 핵심 전문 영역
-- [Projects](/projects/): 대표 프로젝트 및 데모
-- [Technologies](/technologies/): 기술 노트와 상세 항목
-- [Publications](/publications/): 학위 논문 및 연구 배경
+## Core Identity
 
-## Focus Areas
+- 3D Geometry와 수학 모델링을 이해하는 Software Architect
+- 의료영상(DICOM/CT)과 CAD/CAM 워크플로를 제품 수준으로 구현한 개발자
+- 제조 공정 최적화, Digital Twin, Physical AI 학습 환경을 연결하는 플랫폼 설계자
+- 복잡한 산업 문제를 구조화하고 실행 가능한 시스템으로 만드는 문제 해결자
 
-- **Medical Imaging / CAD-CAM**: DICOM, CT volume processing, 3D mesh processing, implant guide design workflow
-- **Physical AI / Industrial AI**: reinforcement learning, synthetic data generation, Isaac Sim / Isaac Lab training environment
-- **3D Geometry / Visualization**: computational geometry, mesh / volume visualization, OpenGL, VTK, ITK, Qt
-- **Architecture / Platform**: product architecture, technical roadmap, full-stack platform delivery
+## Academic Background
 
-## Positioning
+### POSTECH Ph.D. in Computer Engineering
 
-복잡한 산업 문제를 구조화하고, 실제 제품과 플랫폼으로 구현하는 아키텍처 중심의 문제 해결에 강점을 가지고 있습니다.
+Computer Graphics 전공  
+Dissertation: **The Intersection of Two Ringed Surfaces and Some Related Problems**
+
+### POSTECH M.S. in Computer Engineering
+
+Computer Graphics 전공  
+Thesis: **The Intersection of Two Ruled Surfaces**
+
+![DaDa](/img/dada.png#center)
