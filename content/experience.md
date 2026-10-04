@@ -1,6 +1,6 @@
 ---
 title: "Experience"
-date: 2026-10-05T00:00:00+09:00
+date: 2026-10-05T01:00:00+09:00
 ---
 
 ## 평행공간(Parallel Space) / CTO
