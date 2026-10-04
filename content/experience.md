@@ -1,11 +1,23 @@
 ---
 title: "Experience"
-date: 2026-05-29T00:00:00+09:00
+date: 2026-10-05T00:00:00+09:00
 ---
+
+## 평행공간(P-Space)  / CTO
+
+**2026.07 - Present**
+
+P-House and P-Engine
+- 3D reconstruction
+- Grounding DINO
+- SAM2
+- 3D segmentation
+- skeletonization
+- OpenGL rendering
 
 ## Pebblous Inc. / 수석연구원
 
-**2023.04 - Present**
+**2023.04 - 2026.06
 
 제조 공정의 운영 제약을 소프트웨어 모델로 구조화하고, 시뮬레이션·데이터 생성·강화학습을 연결하는 산업 AI 및 Physical AI 플랫폼을 설계·개발했습니다. 개별 알고리즘 구현과 함께 학습 파이프라인 및 운영 정책 검증 구조를 설계했습니다.
 
